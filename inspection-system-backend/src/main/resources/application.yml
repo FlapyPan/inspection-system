@@ -1,0 +1,19 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url:
+    hikari:
+      username:
+      password:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+
+
+jwt:
+  secret: InspectionSystemSecret
+  expiration: 3
